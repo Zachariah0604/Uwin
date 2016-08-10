@@ -1,0 +1,34 @@
+﻿ {$header$}
+
+    <div id="oterbanner" style="border-bottom:1px solid #FF0000">
+        <div class="banne">
+            <div class="positions">当前位置：首页>>文章列表>><a href="../Article/{$CurrentTypeLink}" target="_top">{$CurrentTypeName}</a></div>
+            <div class="Txts">
+                <div class="Txtsbig">文章列表</div>
+                <div class="Txtssmall">{$CurrentTypeName}</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="uwincontainer">
+	<div class="containerLeft">
+		<div class="containerLeftBox">
+			<div class="containerLeftBoxTop">文章分类</div>
+			{$Typelist}
+		</div>
+	</div>
+	
+	<div class="containerRight">
+		
+		<div class="containerRightOth">{$Artilelist}</div>
+		
+		
+   <ul class="paginationindex">
+    
+      {$Pagelink}
+      
+  </ul>
+  
+	</div>
+</div>
+    {$Footer$}

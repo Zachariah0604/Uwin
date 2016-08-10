@@ -1,0 +1,83 @@
+F:\Vs Project\Uwin\Uwin\bin\Uwin.dll
+F:\Vs Project\Uwin\Uwin\bin\Uwin.pdb
+F:\Vs Project\Uwin\Uwin\obj\Debug\Uwin.csprojResolveAssemblyReference.cache
+F:\Vs Project\Uwin\Uwin\obj\Debug\Uwin.dll
+F:\Vs Project\Uwin\Uwin\obj\Debug\Uwin.pdb
+F:\Vs Project\Uwin\Uwin\bin\BLL.dll
+F:\Vs Project\Uwin\Uwin\bin\DAL.dll
+F:\Vs Project\Uwin\Uwin\bin\BLL.pdb
+F:\Vs Project\Uwin\Uwin\bin\DAL.pdb
+F:\Vs Project\Uwin\Uwin\bin\Model.dll
+F:\Vs Project\Uwin\Uwin\bin\Model.pdb
+F:\Vs Project\Uwin\Uwin\bin\Html.dll
+F:\Vs Project\Uwin\Uwin\bin\Html.pdb
+E:\Git\vsProject\Uwin\Uwin\bin\Uwin.dll
+E:\Git\vsProject\Uwin\Uwin\bin\Uwin.pdb
+E:\Git\vsProject\Uwin\Uwin\bin\BLL.dll
+E:\Git\vsProject\Uwin\Uwin\bin\Html.dll
+E:\Git\vsProject\Uwin\Uwin\bin\Model.dll
+E:\Git\vsProject\Uwin\Uwin\bin\DAL.dll
+E:\Git\vsProject\Uwin\Uwin\bin\BLL.pdb
+E:\Git\vsProject\Uwin\Uwin\bin\Html.pdb
+E:\Git\vsProject\Uwin\Uwin\bin\Model.pdb
+E:\Git\vsProject\Uwin\Uwin\bin\DAL.pdb
+E:\Git\vsProject\Uwin\Uwin\obj\Debug\Uwin.csprojResolveAssemblyReference.cache
+E:\Git\vsProject\Uwin\Uwin\obj\Debug\Uwin.dll
+E:\Git\vsProject\Uwin\Uwin\obj\Debug\Uwin.pdb
+E:\Git\vsProject\Uwin\Uwin\bin\Microsoft.Data.Edm.dll
+E:\Git\vsProject\Uwin\Uwin\bin\Microsoft.Data.OData.dll
+E:\Git\vsProject\Uwin\Uwin\bin\Microsoft.Data.Services.Client.dll
+E:\Git\vsProject\Uwin\Uwin\bin\Microsoft.Data.Services.dll
+E:\Git\vsProject\Uwin\Uwin\bin\System.Spatial.dll
+E:\Git\vsProject\Uwin\Uwin\bin\Microsoft.Data.Edm.xml
+E:\Git\vsProject\Uwin\Uwin\bin\Microsoft.Data.OData.xml
+E:\Git\vsProject\Uwin\Uwin\bin\Microsoft.Data.Services.xml
+E:\Git\vsProject\Uwin\Uwin\bin\Microsoft.Data.Services.Client.xml
+E:\Git\vsProject\Uwin\Uwin\bin\System.Spatial.xml
+D:\Git\VsProject\Uwin\Uwin\bin\Uwin.dll
+D:\Git\VsProject\Uwin\Uwin\bin\Uwin.pdb
+D:\Git\VsProject\Uwin\Uwin\bin\BLL.dll
+D:\Git\VsProject\Uwin\Uwin\bin\Html.dll
+D:\Git\VsProject\Uwin\Uwin\bin\Microsoft.Data.Edm.dll
+D:\Git\VsProject\Uwin\Uwin\bin\Microsoft.Data.OData.dll
+D:\Git\VsProject\Uwin\Uwin\bin\Microsoft.Data.Services.Client.dll
+D:\Git\VsProject\Uwin\Uwin\bin\Microsoft.Data.Services.dll
+D:\Git\VsProject\Uwin\Uwin\bin\Model.dll
+D:\Git\VsProject\Uwin\Uwin\bin\System.Spatial.dll
+D:\Git\VsProject\Uwin\Uwin\bin\DAL.dll
+D:\Git\VsProject\Uwin\Uwin\bin\BLL.pdb
+D:\Git\VsProject\Uwin\Uwin\bin\Html.pdb
+D:\Git\VsProject\Uwin\Uwin\bin\Model.pdb
+D:\Git\VsProject\Uwin\Uwin\bin\Microsoft.Data.Edm.xml
+D:\Git\VsProject\Uwin\Uwin\bin\Microsoft.Data.OData.xml
+D:\Git\VsProject\Uwin\Uwin\bin\Microsoft.Data.Services.xml
+D:\Git\VsProject\Uwin\Uwin\bin\Microsoft.Data.Services.Client.xml
+D:\Git\VsProject\Uwin\Uwin\bin\System.Spatial.xml
+D:\Git\VsProject\Uwin\Uwin\bin\DAL.pdb
+D:\Git\VsProject\Uwin\Uwin\obj\Debug\Uwin.csprojResolveAssemblyReference.cache
+D:\Git\VsProject\Uwin\Uwin\obj\Debug\Uwin.dll
+D:\Git\VsProject\Uwin\Uwin\obj\Debug\Uwin.pdb
+D:\Git\VsProject\Uwin\Uwin\bin\Uwin.dll.config
+E:\Vs Projects\Uwin\Uwin\bin\Uwin.dll
+E:\Vs Projects\Uwin\Uwin\bin\Uwin.pdb
+E:\Vs Projects\Uwin\Uwin\bin\BLL.dll
+E:\Vs Projects\Uwin\Uwin\bin\Html.dll
+E:\Vs Projects\Uwin\Uwin\bin\Microsoft.Data.Edm.dll
+E:\Vs Projects\Uwin\Uwin\bin\Microsoft.Data.OData.dll
+E:\Vs Projects\Uwin\Uwin\bin\Microsoft.Data.Services.Client.dll
+E:\Vs Projects\Uwin\Uwin\bin\Microsoft.Data.Services.dll
+E:\Vs Projects\Uwin\Uwin\bin\Model.dll
+E:\Vs Projects\Uwin\Uwin\bin\System.Spatial.dll
+E:\Vs Projects\Uwin\Uwin\bin\DAL.dll
+E:\Vs Projects\Uwin\Uwin\bin\BLL.pdb
+E:\Vs Projects\Uwin\Uwin\bin\Html.pdb
+E:\Vs Projects\Uwin\Uwin\bin\Model.pdb
+E:\Vs Projects\Uwin\Uwin\bin\Microsoft.Data.Edm.xml
+E:\Vs Projects\Uwin\Uwin\bin\Microsoft.Data.OData.xml
+E:\Vs Projects\Uwin\Uwin\bin\Microsoft.Data.Services.xml
+E:\Vs Projects\Uwin\Uwin\bin\Microsoft.Data.Services.Client.xml
+E:\Vs Projects\Uwin\Uwin\bin\System.Spatial.xml
+E:\Vs Projects\Uwin\Uwin\bin\DAL.pdb
+E:\Vs Projects\Uwin\Uwin\obj\Debug\Uwin.csprojResolveAssemblyReference.cache
+E:\Vs Projects\Uwin\Uwin\obj\Debug\Uwin.dll
+E:\Vs Projects\Uwin\Uwin\obj\Debug\Uwin.pdb

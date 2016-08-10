@@ -1,0 +1,44 @@
+F:\Vs Project\Uwin\Html\bin\Debug\Html.dll
+F:\Vs Project\Uwin\Html\bin\Debug\Html.pdb
+F:\Vs Project\Uwin\Html\obj\Debug\Html.dll
+F:\Vs Project\Uwin\Html\obj\Debug\Html.pdb
+F:\Vs Project\Uwin\Html\obj\Debug\Html.csprojResolveAssemblyReference.cache
+F:\Vs Project\Uwin\Html\bin\Debug\BLL.dll
+F:\Vs Project\Uwin\Html\bin\Debug\Model.dll
+F:\Vs Project\Uwin\Html\bin\Debug\DAL.dll
+F:\Vs Project\Uwin\Html\bin\Debug\BLL.pdb
+F:\Vs Project\Uwin\Html\bin\Debug\Model.pdb
+F:\Vs Project\Uwin\Html\bin\Debug\DAL.pdb
+E:\Git\vsProject\Uwin\Html\bin\Debug\Html.dll
+E:\Git\vsProject\Uwin\Html\bin\Debug\Html.pdb
+E:\Git\vsProject\Uwin\Html\bin\Debug\BLL.dll
+E:\Git\vsProject\Uwin\Html\bin\Debug\Model.dll
+E:\Git\vsProject\Uwin\Html\bin\Debug\Model.pdb
+E:\Git\vsProject\Uwin\Html\obj\Debug\Html.csprojResolveAssemblyReference.cache
+E:\Git\vsProject\Uwin\Html\obj\Debug\Html.dll
+E:\Git\vsProject\Uwin\Html\obj\Debug\Html.pdb
+E:\Git\vsProject\Uwin\Html\bin\Debug\DAL.dll
+E:\Git\vsProject\Uwin\Html\bin\Debug\BLL.pdb
+E:\Git\vsProject\Uwin\Html\bin\Debug\DAL.pdb
+D:\Git\VsProject\Uwin\Html\bin\Debug\Html.dll
+D:\Git\VsProject\Uwin\Html\bin\Debug\Html.pdb
+D:\Git\VsProject\Uwin\Html\bin\Debug\BLL.dll
+D:\Git\VsProject\Uwin\Html\bin\Debug\Model.dll
+D:\Git\VsProject\Uwin\Html\bin\Debug\DAL.dll
+D:\Git\VsProject\Uwin\Html\bin\Debug\BLL.pdb
+D:\Git\VsProject\Uwin\Html\bin\Debug\Model.pdb
+D:\Git\VsProject\Uwin\Html\bin\Debug\DAL.pdb
+D:\Git\VsProject\Uwin\Html\obj\Debug\Html.csprojResolveAssemblyReference.cache
+D:\Git\VsProject\Uwin\Html\obj\Debug\Html.dll
+D:\Git\VsProject\Uwin\Html\obj\Debug\Html.pdb
+E:\Vs Projects\Uwin\Html\bin\Debug\Html.dll
+E:\Vs Projects\Uwin\Html\bin\Debug\Html.pdb
+E:\Vs Projects\Uwin\Html\bin\Debug\BLL.dll
+E:\Vs Projects\Uwin\Html\bin\Debug\Model.dll
+E:\Vs Projects\Uwin\Html\bin\Debug\DAL.dll
+E:\Vs Projects\Uwin\Html\bin\Debug\BLL.pdb
+E:\Vs Projects\Uwin\Html\bin\Debug\Model.pdb
+E:\Vs Projects\Uwin\Html\bin\Debug\DAL.pdb
+E:\Vs Projects\Uwin\Html\obj\Debug\Html.csprojResolveAssemblyReference.cache
+E:\Vs Projects\Uwin\Html\obj\Debug\Html.dll
+E:\Vs Projects\Uwin\Html\obj\Debug\Html.pdb

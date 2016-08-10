@@ -1,0 +1,164 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>{$DetailTitle}{$TypeNameTitle}{$ColumnTitle}{$WebTitle}</title>
+<meta name="keywords" content="{$MetaKeywords}" />
+<meta name="description" content="{$MetaDescription}" />
+
+    <link href="../css/Style.css" type="text/css" rel="stylesheet" />
+    <script type="text/javascript" src="../js/jquery-1.12.0.min.js"></script>
+    <script type="text/javascript" src="../js/jquery.plugins.js"></script>
+    <script type="text/javascript" src="../js/utility.js"></script>
+    <script type="text/javascript" src="../js/common.js"></script>
+    <script type="text/javascript" src="../js/parts.js"></script>
+    <link href="../css/common.css" type="text/css" rel="Stylesheet" />
+    <script type ="text/javascript" src ="../js/ajax.js" ></script>
+<script type ="text/javascript" src ="../js/login.js" ></script>
+    <script type ="text/javascript" src ="../js/loginbox.js" ></script>
+
+   <link rel="stylesheet" type="text/css" href="../css/water.css" />
+
+<script src="../js/pinterest_grid.js"></script>
+<script type="text/javascript">
+    $(function () {
+        $("#gallery-wrapper").pinterest_grid({
+            no_columns: 4,
+            padding_x: 10,
+            padding_y: 10,
+            margin_bottom: 50,
+            single_column_breakpoint: 700
+        });
+
+    });
+</script>
+
+   <script type="text/javascript">
+       $(document).ready(function ($) {
+
+           $('.theme-login').click(function () {
+               $('.loginmask').show();
+               $('.loginmask').height($(document).height());
+               $('#loginalert').slideDown(200);
+           })
+           $('.loginpd .closealert').click(function () {
+               $('.loginmask').hide();
+               $('#loginalert').slideUp(200);
+           })
+           $('.thirdlogin .sinala').click(function () {
+               alert('暂未开放');
+           })
+           $('.thirdlogin .qqla').click(function () {
+               alert('暂未开放');
+           })
+
+       });
+</script>
+ 
+    
+</head>
+
+<body>
+<div class="loginmask"></div>
+
+<div id="loginalert">
+	
+	<div class="pd20 loginpd">
+		<h3><i class="closealert fr"></i><div class="clear"></div></h3>
+		<div class="loginwrap">
+			<div class="loginh">
+				<div class="fl">会员登录</div>
+				<div class="fr">还没有账号<a id="A1" href="User/Register.html" target="_parent">立即注册</a></div>
+			</div>
+			<h3><span class="fl">用户名登录</span><span class="login_warning">请正确填写用户名和密码</span><div class="clear"></div></h3>
+				<div class="logininput">
+					<input type="text" id="txtusername" name="txtusername" class="loginusername" value="" placeholder="用户名" />
+					<input type="password" id="txtpassword" name="txtpassword" class="loginuserpasswordt" value="" placeholder="密码" />
+				</div>
+				<div class="loginbtn">
+					<div class="loginsubmit fl"><input type="submit" id="btn_login" name="btn_login" value="登录" class="btn" /></div>
+					<div class="fl" style="margin:26px 0 0 0;"><input id="Checkbox1" type="checkbox" checked="true" />保持登录</div>
+					<div class="fr" style="margin:26px 0 0 0;"><a href="#">忘记密码?</a></div>
+					<div class="clear"></div>
+				</div>
+			
+		</div>
+	</div>
+	
+	<div class="thirdlogin">
+		<div class="pd50">
+			<h4>用第三方帐号直接登录</h4>
+			<ul>
+				<li id="sinal"><a class="sinala">微博账号登录</a></li>
+				<li id="qql"><a class="qqla">QQ账号登录</a></li>
+			</ul>
+			<div class="clear"></div>
+		</div>
+	</div>
+	
+</div>
+    <div id="header">
+        <div class="inner header">
+            <p class="logo"><A href="{$WebHttp}/index.shtml"><IMG alt="logo" src="../images/logo1.png"></A></p>
+            <P class="logoUQ"><A href="{$WebHttp}/About/AboutUs.html"><IMG alt="UNIQLO" src="../images/logo_uq.png"></A></P>
+            <ul class="utility alpha">
+                <li class="login" id="username"><script type="text/javascript"  src="../common/UserState.aspx"></script></li>
+                <li class="faq"><A href="{$WebHttp}/About/HelpCenter.html"><IMG alt="提问" src="../images/head_u_faq.png"></A></li>
+                <li class="cart"><A href="{$WebHttp}/User/UserCenter.aspx"><IMG alt="111" src="../images/head_u_cart.png"></A></li>
+            </ul>
+        </div>
+        <div id="gnav-area">
+            <div class="inner">
+                <nav>
+                    <ul id="gnav">
+                        <li id="menu-01">
+                            <P class="child gnav-button"><A href="{$WebHttp}/index.shtml"><IMG alt="主页" src="../images/menu_01.png"></A></P>
+                            <div class="snav-area">
+                                <div class="snav-wrap">
+                                    <ul class="snav">
+                                        <li><a href="{$WebHttp}/Article/index.html"><figure><span class="photo"><IMG alt="新闻中心" src="../images/menu_01_01.jpg"></span><figcaption><P>新闻中心</P></figcaption></figure></a>
+                                        </li>
+                                        <li><A href="{$WebHttp}/User/UserCenter.aspx"><figure><SPAN class="photo"><IMG alt="用户中心" src="../images/menu_01_02.jpg"></SPAN><figcaption><P>用户中心</P></figcaption></figure></A></li>
+                                        <li><A href="{$WebHttp}/About/HelpCenter.html"><FIGURE><SPAN class="photo"><IMG alt="帮助中心" src="../images/menu_01_03.jpg"></SPAN><figcaption><P>帮助中心</P></figcaption></FIGURE></A></li>
+                                        <li>
+                                            <ul>
+                                                <li><a href="{$WebHttp}/About/AboutMarket.html" target="_blank"><span>ABOUT MARKET</span>关于市场</a></li>
+                                                <li><a href="{$WebHttp}/About/JoinUs.html" target="_blank"><span>JOIN  US </span>加入我们</a></li>
+                                            </ul>
+                                        </li>
+                                     </ul>
+                                 </div>
+                            </div>
+                        </li>
+                        <li id="menu-02">
+                            <P class="child gnav-button"><A href="#"><IMG alt="视频区"  src="../images/menu_02.png"></A></P>
+                            <div class="snav-area">
+                                <div class="snav-wrap">
+                                     <ul class="snav">
+                                         <li><A href="{$WebHttp}/Vedio/Vedio_1_1.html"><FIGURE><SPAN class="photo"><IMG alt="电视频道1" src="../images/menu_02_01.jpg"></SPAN><FIGCAPTION><P>电视频道1</P></FIGCAPTION></FIGURE></A>
+                                        </li>
+                                        <li><A href="{$WebHttp}/Vedio/Vedio_1_2.html"><FIGURE><SPAN class="photo"><IMG alt="电视频道2" src="../images/menu_02_02.jpg"></SPAN><FIGCAPTION><P>电视频道2</P></FIGCAPTION></FIGURE></A>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li id="menu-03">
+                            <P class="child gnav-button"><A href="#"><IMG alt="商品区" src="../images/menu_03.png"></A></P>
+                            <div class="snav-area">
+                                <div class="snav-wrap">
+                                    <ul class="snav horizon">
+                                        {$itemsType}
+                                        <li>
+                                        <ul>
+                                          <li class="menu-print"><BR><A href="{$WebHttp}/Items/SecItems.html"><P>秒杀商品</P></A></li>
+                                        <li class="menu-print"><BR><A href="{$WebHttp}/Items/TrialItems.html"><P>试用商品</P></A></li></ul></li>
+                                    </ul>
+                                </div>
+                             </div>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>

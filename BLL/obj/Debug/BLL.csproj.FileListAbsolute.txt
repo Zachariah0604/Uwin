@@ -1,0 +1,36 @@
+F:\Vs Project\Uwin\BLL\bin\Debug\BLL.dll
+F:\Vs Project\Uwin\BLL\bin\Debug\BLL.pdb
+F:\Vs Project\Uwin\BLL\bin\Debug\DAL.dll
+F:\Vs Project\Uwin\BLL\bin\Debug\Model.dll
+F:\Vs Project\Uwin\BLL\bin\Debug\DAL.pdb
+F:\Vs Project\Uwin\BLL\bin\Debug\Model.pdb
+F:\Vs Project\Uwin\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+F:\Vs Project\Uwin\BLL\obj\Debug\BLL.dll
+F:\Vs Project\Uwin\BLL\obj\Debug\BLL.pdb
+E:\Git\vsProject\Uwin\BLL\bin\Debug\BLL.pdb
+E:\Git\vsProject\Uwin\BLL\bin\Debug\DAL.dll
+E:\Git\vsProject\Uwin\BLL\bin\Debug\Model.dll
+E:\Git\vsProject\Uwin\BLL\bin\Debug\DAL.pdb
+E:\Git\vsProject\Uwin\BLL\bin\Debug\Model.pdb
+E:\Git\vsProject\Uwin\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+E:\Git\vsProject\Uwin\BLL\obj\Debug\BLL.dll
+E:\Git\vsProject\Uwin\BLL\obj\Debug\BLL.pdb
+E:\Git\vsProject\Uwin\BLL\bin\Debug\BLL.dll
+D:\Git\VsProject\Uwin\BLL\bin\Debug\BLL.dll
+D:\Git\VsProject\Uwin\BLL\bin\Debug\BLL.pdb
+D:\Git\VsProject\Uwin\BLL\bin\Debug\DAL.dll
+D:\Git\VsProject\Uwin\BLL\bin\Debug\Model.dll
+D:\Git\VsProject\Uwin\BLL\bin\Debug\DAL.pdb
+D:\Git\VsProject\Uwin\BLL\bin\Debug\Model.pdb
+D:\Git\VsProject\Uwin\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+D:\Git\VsProject\Uwin\BLL\obj\Debug\BLL.dll
+D:\Git\VsProject\Uwin\BLL\obj\Debug\BLL.pdb
+E:\Vs Projects\Uwin\BLL\bin\Debug\BLL.dll
+E:\Vs Projects\Uwin\BLL\bin\Debug\BLL.pdb
+E:\Vs Projects\Uwin\BLL\bin\Debug\DAL.dll
+E:\Vs Projects\Uwin\BLL\bin\Debug\Model.dll
+E:\Vs Projects\Uwin\BLL\bin\Debug\DAL.pdb
+E:\Vs Projects\Uwin\BLL\bin\Debug\Model.pdb
+E:\Vs Projects\Uwin\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+E:\Vs Projects\Uwin\BLL\obj\Debug\BLL.dll
+E:\Vs Projects\Uwin\BLL\obj\Debug\BLL.pdb

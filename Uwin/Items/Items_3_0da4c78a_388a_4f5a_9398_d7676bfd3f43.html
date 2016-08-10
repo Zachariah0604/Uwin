@@ -1,0 +1,304 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>添加商品测试4-商品大类3-产品中心-悦赢</title>
+<meta name="keywords" content="悦赢" />
+<meta name="description" content="悦赢" />
+
+    <link href="../css/Style.css" type="text/css" rel="stylesheet" />
+    <script type="text/javascript" src="../js/jquery-1.12.0.min.js"></script>
+    <script type="text/javascript" src="../js/jquery.plugins.js"></script>
+    <script type="text/javascript" src="../js/utility.js"></script>
+    <script type="text/javascript" src="../js/common.js"></script>
+    <script type="text/javascript" src="../js/parts.js"></script>
+    <link href="../css/common.css" type="text/css" rel="Stylesheet" />
+    <script type ="text/javascript" src ="../js/ajax.js" ></script>
+<script type ="text/javascript" src ="../js/login.js" ></script>
+    <script type ="text/javascript" src ="../js/loginbox.js" ></script>
+
+   <link rel="stylesheet" type="text/css" href="../css/water.css" />
+
+<script src="../js/pinterest_grid.js"></script>
+<script type="text/javascript">
+    $(function () {
+        $("#gallery-wrapper").pinterest_grid({
+            no_columns: 4,
+            padding_x: 10,
+            padding_y: 10,
+            margin_bottom: 50,
+            single_column_breakpoint: 700
+        });
+
+    });
+</script>
+
+   <script type="text/javascript">
+       $(document).ready(function ($) {
+
+           $('.theme-login').click(function () {
+               $('.loginmask').show();
+               $('.loginmask').height($(document).height());
+               $('#loginalert').slideDown(200);
+           })
+           $('.loginpd .closealert').click(function () {
+               $('.loginmask').hide();
+               $('#loginalert').slideUp(200);
+           })
+           $('.thirdlogin .sinala').click(function () {
+               alert('暂未开放');
+           })
+           $('.thirdlogin .qqla').click(function () {
+               alert('暂未开放');
+           })
+
+       });
+</script>
+  
+    
+</head>
+
+<body>
+<div class="loginmask"></div>
+
+<div id="loginalert">
+	
+	<div class="pd20 loginpd">
+		<h3><i class="closealert fr"></i><div class="clear"></div></h3>
+		<div class="loginwrap">
+			<div class="loginh">
+				<div class="fl">会员登录</div>
+				<div class="fr">还没有账号<a id="A1" href="User/Register.html" target="_parent">立即注册</a></div>
+			</div>
+			<h3><span class="fl">用户名登录</span><span class="login_warning">请正确填写用户名和密码</span><div class="clear"></div></h3>
+				<div class="logininput">
+					<input type="text" id="txtusername" name="txtusername" class="loginusername" value="" placeholder="用户名" />
+					<input type="password" id="txtpassword" name="txtpassword" class="loginuserpasswordt" value="" placeholder="密码" />
+				</div>
+				<div class="loginbtn">
+					<div class="loginsubmit fl"><input type="submit" id="btn_login" name="btn_login" value="登录" class="btn" /></div>
+					<div class="fl" style="margin:26px 0 0 0;"><input id="Checkbox1" type="checkbox" checked="true" />保持登录</div>
+					<div class="fr" style="margin:26px 0 0 0;"><a href="#">忘记密码?</a></div>
+					<div class="clear"></div>
+				</div>
+			
+		</div>
+	</div>
+	
+	<div class="thirdlogin">
+		<div class="pd50">
+			<h4>用第三方帐号直接登录</h4>
+			<ul>
+				<li id="sinal"><a class="sinala">微博账号登录</a></li>
+				<li id="qql"><a class="qqla">QQ账号登录</a></li>
+			</ul>
+			<div class="clear"></div>
+		</div>
+	</div>
+	
+</div>
+    <div id="header">
+        <div class="inner header">
+            <p class="logo"><A href="http://localhost:26380/index.shtml"><IMG alt="logo" src="../images/logo1.png"></A></p>
+            <P class="logoUQ"><A href="http://localhost:26380/About/AboutUs.html"><IMG alt="UNIQLO" src="../images/logo_uq.png"></A></P>
+            <ul class="utility alpha">
+                <li class="login" id="username"><script type="text/javascript"  src="http://localhost:26380/common/UserState.aspx"></script></li>
+                <li class="faq"><A href="http://localhost:26380/About/HelpCenter.html"><IMG alt="提问" src="../images/head_u_faq.png"></A></li>
+                <li class="cart"><A href="http://localhost:26380/User/UserCenter.aspx"><IMG alt="111" src="../images/head_u_cart.png"></A></li>
+            </ul>
+        </div>
+        <div id="gnav-area">
+            <div class="inner">
+                <nav>
+                    <ul id="gnav">
+                        <li id="menu-01">
+                            <P class="child gnav-button"><A href="http://localhost:26380/index.shtml"><IMG alt="主页" src="../images/menu_01.png"></A></P>
+                            <div class="snav-area">
+                                <div class="snav-wrap">
+                                    <ul class="snav">
+                                        <li><a href="http://localhost:26380/Article/index.html"><figure><span class="photo"><IMG alt="新闻中心" src="../images/menu_01_01.jpg"></span><figcaption><P>新闻中心</P></figcaption></figure></a>
+                                        </li>
+                                        <li><A href="http://localhost:26380/User/UserCenter.aspx"><figure><SPAN class="photo"><IMG alt="用户中心" src="../images/menu_01_02.jpg"></SPAN><figcaption><P>用户中心</P></figcaption></figure></A></li>
+                                        <li><A href="http://localhost:26380/About/HelpCenter.html"><FIGURE><SPAN class="photo"><IMG alt="帮助中心" src="../images/menu_01_03.jpg"></SPAN><figcaption><P>帮助中心</P></figcaption></FIGURE></A></li>
+                                        <li>
+                                            <ul>
+                                                <li><a href="http://localhost:26380/About/AboutMarket.html" target="_blank"><span>ABOUT MARKET</span>关于市场</a></li>
+                                                <li><a href="http://localhost:26380/About/JoinUs.html" target="_blank"><span>JOIN  US </span>加入我们</a></li>
+                                            </ul>
+                                        </li>
+                                     </ul>
+                                 </div>
+                            </div>
+                        </li>
+                        <li id="menu-02">
+                            <P class="child gnav-button"><A href="#"><IMG alt="视频区"  src="../images/menu_02.png"></A></P>
+                            <div class="snav-area">
+                                <div class="snav-wrap">
+                                     <ul class="snav">
+                                         <li><A href="http://localhost:26380/Vedio/Vedio_1_1.html"><FIGURE><SPAN class="photo"><IMG alt="电视频道1" src="../images/menu_02_01.jpg"></SPAN><FIGCAPTION><P>电视频道1</P></FIGCAPTION></FIGURE></A>
+                                        </li>
+                                        <li><A href="http://localhost:26380/Vedio/Vedio_1_2.html"><FIGURE><SPAN class="photo"><IMG alt="电视频道2" src="../images/menu_02_02.jpg"></SPAN><FIGCAPTION><P>电视频道2</P></FIGCAPTION></FIGURE></A>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li id="menu-03">
+                            <P class="child gnav-button"><A href="#"><IMG alt="商品区" src="../images/menu_03.png"></A></P>
+                            <div class="snav-area">
+                                <div class="snav-wrap">
+                                    <ul class="snav horizon">
+                                        <li><A href='../Items/items_1.html'><FIGURE><SPAN class="photo"><IMG alt='商品大类1' src='../FileUpload/Images/ItemsThumb/menu/'></SPAN><FIGCAPTION><P>商品大类1</P></FIGCAPTION></FIGURE></A></li><li><A href='../Items/items_2.html'><FIGURE><SPAN class="photo"><IMG alt='商品大类2' src='../FileUpload/Images/ItemsThumb/menu/'></SPAN><FIGCAPTION><P>商品大类2</P></FIGCAPTION></FIGURE></A></li><li><A href='../Items/items_3.html'><FIGURE><SPAN class="photo"><IMG alt='商品大类3' src='../FileUpload/Images/ItemsThumb/menu/'></SPAN><FIGCAPTION><P>商品大类3</P></FIGCAPTION></FIGURE></A></li><li><A href='../Items/items_4.html'><FIGURE><SPAN class="photo"><IMG alt='商品大类4' src='../FileUpload/Images/ItemsThumb/menu/'></SPAN><FIGCAPTION><P>商品大类4</P></FIGCAPTION></FIGURE></A></li><li><A href='../Items/items_5.html'><FIGURE><SPAN class="photo"><IMG alt='商品大类5' src='../FileUpload/Images/ItemsThumb/menu/'></SPAN><FIGCAPTION><P>商品大类5</P></FIGCAPTION></FIGURE></A></li>
+                                        <li>
+                                        <ul>
+                                          <li class="menu-print"><BR><A href="http://localhost:26380/Items/SecItems.html"><P>秒杀商品</P></A></li>
+                                        <li class="menu-print"><BR><A href="http://localhost:26380/Items/TrialItems.html"><P>试用商品</P></A></li></ul></li>
+                                    </ul>
+                                </div>
+                             </div>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+
+<div id="oterbanner" style="border-bottom:1px solid #FF0000">
+        <div class="banne">
+            <div class="positions">当前位置：<a href="../index.shtml" target="_blank" style="color:#000">首页</a>>>商品区>><a href="items_3.html" target="_blank" style="color:#000">商品大类3</a>>>添加商品测试4</div>
+            <div class="UwinContent">
+                <div class="ContentTitle">添加商品测试4</div>
+                <div class="ContentInfo">优惠信息&nbsp;&nbsp;商品操作</div>
+            </div>
+        </div>
+    </div>
+    
+	<div id="ItemDetail">
+		<div class="containLeft">
+			
+			<div class="showproductbody">
+				<div class="showproductsimp">
+					<table width="100%" height="350" border="0">
+						<tr>
+							<td width="350" height="350" rowspan="12"><img src="../FileUpload/Images/ItemsThumb/s_8af31d0bd662db19e3fd46fae2020af2.jpg" width="350px" height="350px" /></td>
+							<td width="50" rowspan="12">&nbsp;</td>
+							<td width="419" height="50px"><span><strong></strong></span></td>
+						</tr>
+						<tr>
+							<td>&nbsp;</td>
+						</tr>
+						<tr>
+							<td><div style="font-size:16px">市场价:<i style="color:red">￥45</i></div></td>
+						</tr>
+						<tr>
+							<td>&nbsp;</td>
+						</tr>
+						<tr>
+							<td>品牌：国内名牌1</td>
+						</tr>
+                        <tr>
+							<td>配送：配送配送配送</td>
+						</tr>
+						<tr>
+							<td>库存量：546件</td>
+						</tr>
+						<tr>
+							<td>选择数量：：</td>
+						</tr>
+						<tr>
+							<td>承诺：7天无理由退货</td>
+						</tr>
+						<tr>
+							<td>支付：支付宝   微信</td>
+						</tr>
+                        <tr height="20px;">
+							<td>&nbsp;</td>
+						</tr>
+						<tr>
+							<td>
+                                <div class="ItemButton">
+		    <ul>
+			    <li><a  href="#" target="_top">加入购物车</a></li>
+			    <li><a  href="#" target="_top">立即购买</a></li>
+			
+		    </ul>
+	    </div> 
+							</td>
+						</tr>
+						
+					</table>
+
+				</div>
+
+				<div class="showproductdetail">
+					<div class="tiek">>> 商品详细信息</div>
+					<div class="tsbody">
+						商品描述商品描述商品描述商品描述商品描述商品描述商品描述商品描述商品描述商品描述商品描述商品描述商品描述商品描述商品描述商品描述商品描述商品描述
+
+					</div>
+				</div>
+
+
+			</div>
+
+		</div>
+
+		<div class="containRight">
+			
+			<div class="containRightItems"><a href="{mydc:url}" target="_blank">商户信息</a></div>
+
+			
+
+		</div>
+
+
+	</div>
+<div class="Footer">
+
+	<div class="uwinfoot">
+	  <div class="fleft">
+	    <ul>
+		  <li><div style="width:130px;font-size:24px; color:#fff; padding-top:20px; border-bottom:#fff solid 1px;">ABOUT US</div></li>
+		  <li><a href="About\AboutMarket.html" target="_blank" >+关于市场</a></li>
+		  <li><a href="About\AboutUs.html" target="_blank" >+关于公司</a></li>
+		  <li><a href="About\HelpCenter.html" target="_blank"  >+帮助中心</a></li>
+		  
+		  <li><a href="About\JoinUs.html" target="_blank"  >+加入我们</a></li>
+		</ul>
+		<ul>
+		  <li><div style="width:130px;font-size:24px; color:#fff; padding-top:20px; border-bottom:#fff solid 1px;">News</div></li>
+		   <li><a href='Article\List_5.html' >+文章分类1</a></li> <li><a href='Article\List_6.html' >+文章分类2</a></li> <li><a href='Article\List_7_1.html' >+文章分类3333</a></li> <li><a href='Article\List_8.html' >+文章分类4</a></li>
+		
+		  
+		  
+		</ul>
+		 <ul>
+		  <li><div style="width:130px;font-size:24px; color:#fff; padding-top:20px; border-bottom:#fff solid 1px;">Links</div></li>
+		  <li><a href="#" >+友情连接1</a></li>
+		  <li><a href="#" >+友情连接1</a></li>
+		  <li><a href="#" >+友情连接1</a></li>
+		  
+		  
+		</ul>
+		
+	  </div>
+	  <div class="fright">
+	  
+	   <div style="margin-top:20px; "><img src="../images/bnr_appstore.png" alt="" border="0" /></div>
+	 
+	   <div style="margin-top:30px; "><img src="../images/bnr_googleplay.png" alt="" border="0" /></div>
+
+	  </div>
+	</div>
+    <div class="uwinfootbot"><div class="textbox">CopyRight. 淄博悦赢 版权所有<span style="float:right;">备案号1111111</span></div></div>
+	
+</div>
+    
+
+
+
+</body>
+</html>
+
+

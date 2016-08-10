@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script type ="text/javascript" >
+        window.onload = function () {
+            if (GetCookie('user_name') == null || GetCookie('user_pwd') == null)//如果没有登录,而是直接在网页中输入网址的
+            {
+                alert('你还没有登录！\n返回到登陆页面。');
+                window.navigate("login.htm");
+            }
+            else {
+                var uname = GetCookie('user_name');
+                document.getElementById('username').innerHTML = "欢迎你： " + uname + "     <a href='#' onclick = 'off()'>注销</a>";//提供"注销"按钮
+            }
+        }
+
+        function off()//注销事件
+        {
+            if (window.confirm("你真要注销吗？")) {
+                Delcookie("user_name");
+                Delcookie("user_pwd");
+                window.navigate("login.htm");
+            }
+        }
+    </script>
+</head>
+<body>
+    <span id ="username"> </span>
+
+</body>
+</html>

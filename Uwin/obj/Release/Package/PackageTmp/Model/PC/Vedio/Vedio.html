@@ -1,0 +1,40 @@
+﻿
+ {$header$}
+<style type="text/css">
+    body {  background-color: #e9f0f5;}
+</style>
+     <div id="oterbanner" style="border-bottom:1px solid #FF0000">
+        <div class="banne">
+            <div class="positions">{$Positions}</div>
+            <div class="Txts">
+                <div class="Txtsbig">视频专区</div>
+                <div class="Txtssmall">{$VedioChannelName}</div>
+            </div>
+        </div>
+    </div>
+
+	    <div class="VedioSelectButton">
+		    <ul>
+			    {$ChannelNameList}
+			
+		    </ul>
+	    </div> 
+    <div class="Video">
+       <object class id="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="1000" height="500">
+  <param name="movie" value="../flvplayer.swf">
+  <param name="quality" value="high">
+  <param name="allowFullScreen" value="true">
+  <param name="FlashVars" value="vcastr_file={$videoDir}">
+  <embed src="../flvplayer.swf" allowfullscreen="true" flashvars="vcastr_file={$videoDir}" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="1000" height="500"></embed>
+</object>
+    </div>
+
+    
+<section id="cd-timeline" class="cd-container">
+	
+	
+  {$itemsLists}
+</section>
+   
+  
+{$Footer$}

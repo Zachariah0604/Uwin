@@ -1,0 +1,11 @@
+D:\Git\VsProject\Uwin\Html\bin\Release\Html.dll
+D:\Git\VsProject\Uwin\Html\bin\Release\Html.pdb
+D:\Git\VsProject\Uwin\Html\bin\Release\BLL.dll
+D:\Git\VsProject\Uwin\Html\bin\Release\Model.dll
+D:\Git\VsProject\Uwin\Html\bin\Release\DAL.dll
+D:\Git\VsProject\Uwin\Html\bin\Release\BLL.pdb
+D:\Git\VsProject\Uwin\Html\bin\Release\Model.pdb
+D:\Git\VsProject\Uwin\Html\bin\Release\DAL.pdb
+D:\Git\VsProject\Uwin\Html\obj\Release\Html.csprojResolveAssemblyReference.cache
+D:\Git\VsProject\Uwin\Html\obj\Release\Html.dll
+D:\Git\VsProject\Uwin\Html\obj\Release\Html.pdb

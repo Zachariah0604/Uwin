@@ -1,0 +1,5 @@
+D:\Git\VsProject\Uwin\Model\bin\Release\Model.dll
+D:\Git\VsProject\Uwin\Model\bin\Release\Model.pdb
+D:\Git\VsProject\Uwin\Model\obj\Release\Model.csprojResolveAssemblyReference.cache
+D:\Git\VsProject\Uwin\Model\obj\Release\Model.dll
+D:\Git\VsProject\Uwin\Model\obj\Release\Model.pdb

@@ -1,0 +1,224 @@
+
+    {$header$}
+    
+    <div id="container" class="top">
+        <section class="acr-cover">
+            <div id="main-visual">
+                <div class="inner">
+                    <div class="lubo">
+  <ul class="lubo_box">
+    <li style=" opacity: 1;filter:alpha(opacity=100);"><a href='{$PCBanneraLink}' style="background:url(FileUpload/Images/PCBanner/{$PCBannera}) center top no-repeat;"></a></li>
+    <li><a href='{$PCBannerbLink}' style="background:url(FileUpload/Images/PCBanner/{$PCBannerb}) center top no-repeat"></a></li>
+    <li><a href='{$PCBannercLink}' style="background:url(FileUpload/Images/PCBanner/{$PCBannerc}) center top no-repeat"></a></li>
+    <li><a href='{$PCBannerdLink}' style="background:url(FileUpload/Images/PCBanner/{$PCBannerd}) center top no-repeat"></a></li>
+  </ul>
+</div>
+
+<script type="text/javascript">
+
+    $(function () {
+
+        $(".lubo").lubo({
+
+        });
+
+    })
+
+</script>
+                    <!--<h1><IMG alt="#" src="images/main_lead.png"></h1>
+                    
+                    <ul class="app ib">
+                        <li><a href="#" target="_blank"><IMG alt="" src="images/bnr_appstore.png"></a></li>
+                        <li><a href="#"  target="_blank"><IMG alt="" src="images/bnr_googleplay.png"></a></li>
+                    </ul>-->
+                </div>
+            </div>
+        </section>
+        <section id="news-area" class="acr-cover"  >
+            <div class="inner sizeM">
+                <dl class="news cf" >
+                    <dt>NEWS</dt>
+                    <dd>
+                        <div class="shell">
+                        <div id="newsroll">
+                       {$NewsScroll}
+                        </div>
+                        </div>
+                        <script language="javascript">
+                            var box = document.getElementById("newsroll"), can = true;
+                            box.innerHTML += box.innerHTML;
+                            box.onmouseover = function () { can = false };
+                            box.onmouseout = function () { can = true };
+                            new function () {
+                                var stop = box.scrollTop % 20 == 0 && !can;
+                                if (!stop) box.scrollTop == parseInt(box.scrollHeight / 2) ? box.scrollTop = 0 : box.scrollTop++;
+                                setTimeout(arguments.callee, box.scrollTop % 20 ? 10 : 1500);
+                            };
+                        </script>
+                    </dd>
+                    <dd class="view"><a href="Article/index.html" target="_blank">新闻中心</a></dd>
+                </dl>
+            </div>
+       </section>
+    </div>
+    
+
+    <div id="centerpic">
+        <div class="full-length">
+	        <div class="containerpic">
+		        <ul>
+			        {$SeckScroll}
+		        </ul>
+            </div>
+        </div>
+    </div>
+    <div id="withus">
+        <div class="imgk"><img  src="images/ttl_utme.png" /></div>
+        <div class="tw"><img src="images/ico_insg.png" />&nbsp;&nbsp;&nbsp;<img src="images/ico_twitter.png" /></div>
+        <script type="text/javascript">
+            $.fn.imgscroll = function (o) {
+                var defaults = {
+                    speed: 40,
+                    amount: 0,
+                    width: 1,
+                    dir: "left"
+                };
+                o = $.extend(defaults, o);
+
+                return this.each(function () {
+                    var _li = $("li", this);
+                    _li.parent().parent().css({ overflow: "hidden", position: "relative" }); 
+                    _li.parent().css({ margin: "0", padding: "0", overflow: "hidden", position: "relative", "list-style": "none" }); 
+                    _li.css({ position: "relative", overflow: "hidden" }); 
+                    if (o.dir == "left") _li.css({ float: "left" });
+
+                    var _li_size = 0;
+                    for (var i = 0; i < _li.size() ; i++)
+                        _li_size += o.dir == "left" ? _li.eq(i).outerWidth(true) : _li.eq(i).outerHeight(true);
+
+                    if (o.dir == "left") _li.parent().css({ width: (_li_size * 3) + "px" });
+                    _li.parent().empty().append(_li.clone()).append(_li.clone()).append(_li.clone());
+                    _li = $("li", this);
+
+                    var _li_scroll = 0;
+                    function goto() {
+                        _li_scroll += o.width;
+                        if (_li_scroll > _li_size) {
+                            _li_scroll = 0;
+                            _li.parent().css(o.dir == "left" ? { left: -_li_scroll } : { top: -_li_scroll });
+                            _li_scroll += o.width;
+                        }
+                        _li.parent().animate(o.dir == "left" ? { left: -_li_scroll } : { top: -_li_scroll }, o.amount);
+                    }
+
+                    var move = setInterval(function () { goto(); }, o.speed);
+                    _li.parent().hover(function () {
+                        clearInterval(move);
+                    }, function () {
+                        clearInterval(move);
+                        move = setInterval(function () { goto(); }, o.speed);
+                    });
+                });
+            };
+</script>
+<div class="itemImgscrollleft">
+	<ul>
+       
+		{$ItemsImageScroll}
+		
+	</ul>
+</div>
+
+
+
+
+<script type="text/javascript">
+    $(document).ready(function () {
+
+        $(".itemImgscrollleft").imgscroll({
+            speed: 20,    
+            amount: 0,    
+            width: 1,     
+            dir: "left"   
+        });
+
+       
+
+    });
+</script> 
+      
+
+    </div>
+
+   <div class="soft_function">
+
+	<div class="soft_con_icon">
+		<ul>
+			<li><a id="pic_fun_adm" href="#">悦赢客户端</a></li>
+			<li><a id="pic_fun_crm" href="#">微信公众号</a></li>
+			
+		</ul>
+	</div> 
+
+	<div class="soft_con1" style="background:url(images/line_select_002.gif);"></div>
+
+	<div class="soft_con">
+
+		<div id="xzgl" class="soft_con2">
+            <div class="col-md-8 header-matter">
+                <div class="logo"><a href="">
+                    <img src="images/applogo.PNG" alt="" /></a></div>
+                <div class="logoTitle">实用的手机生活商业软件,本地化购物app</div>
+                <div class="logoTitledown">帮助用户更好的管理自己的生活<br/><br/>提供大量专业的生活财经知识<br /><br/>看电视、听广播时看到或听到悦赢互动提示，让用户能够更好的享受到便捷的生活
+                    </div>
+                <div class="appinline">
+                <div class="ap-but">
+                    <input type="submit" style=" background: url(images/apple.png)no-repeat;" value="" />
+                   
+                </div>
+                <div class="ap-but">
+                    <input type="submit" style=" background: url(images/Android.png)no-repeat;" value="" />
+                    
+                </div>
+
+                </div>
+            </div>
+            <div class="col-md-4">
+                <img src="images/iphone-frame.PNG" alt="" />
+            </div>	
+		</div>
+	
+		<div id="crm" class="soft_con2" style="display:none">
+			
+		</div>
+	
+		
+	
+	</div>
+	
+</div>
+
+<div id="tag">
+ <div class="arrow">
+     <em></em><span></span>
+    </div>
+    <br />
+    &nbsp;地址：淄博市张店区华光路52号广电大厦
+     <br /><br />
+    &nbsp;电话：18311111111  0533-000000
+     <br /><br />
+    &nbsp;邮箱：text@admin.com
+</div>
+
+    <div class="ContentUs">
+       <div class="Txt" id="thoughtBubble" onmouseover="show('tag')" onmouseout="hide('tag')">联系我们</div>
+    </div>
+<script>
+    function show(tag) {
+        document.getElementById(tag).style.display = "block";
+    }
+    function hide(tag) {
+        document.getElementById(tag).style.display = "none";
+    }
+</script>
+{$Footer$}

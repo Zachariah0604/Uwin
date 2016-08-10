@@ -1,0 +1,20 @@
+F:\Vs Project\Uwin\Model\bin\Debug\Model.dll
+F:\Vs Project\Uwin\Model\bin\Debug\Model.pdb
+F:\Vs Project\Uwin\Model\obj\Debug\Model.dll
+F:\Vs Project\Uwin\Model\obj\Debug\Model.pdb
+F:\Vs Project\Uwin\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+E:\Git\vsProject\Uwin\Model\bin\Debug\Model.dll
+E:\Git\vsProject\Uwin\Model\bin\Debug\Model.pdb
+E:\Git\vsProject\Uwin\Model\obj\Debug\Model.dll
+E:\Git\vsProject\Uwin\Model\obj\Debug\Model.pdb
+E:\Git\vsProject\Uwin\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+D:\Git\VsProject\Uwin\Model\bin\Debug\Model.dll
+D:\Git\VsProject\Uwin\Model\bin\Debug\Model.pdb
+D:\Git\VsProject\Uwin\Model\obj\Debug\Model.dll
+D:\Git\VsProject\Uwin\Model\obj\Debug\Model.pdb
+D:\Git\VsProject\Uwin\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+E:\Vs Projects\Uwin\Model\bin\Debug\Model.dll
+E:\Vs Projects\Uwin\Model\bin\Debug\Model.pdb
+E:\Vs Projects\Uwin\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+E:\Vs Projects\Uwin\Model\obj\Debug\Model.dll
+E:\Vs Projects\Uwin\Model\obj\Debug\Model.pdb

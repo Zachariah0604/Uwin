@@ -1,0 +1,93 @@
+﻿{$header$}
+
+<div id="oterbanner" style="border-bottom:1px solid #FF0000">
+        <div class="banne">
+            <div class="positions">当前位置：<a href="../index.shtml" target="_blank" style="color:#000">首页</a>>>商品区>><a href="{$parTypelink}" target="_blank" style="color:#000">{$parTypeName}</a>>>{$ItemsTitle}</div>
+            <div class="UwinContent">
+                <div class="ContentTitle">{$ItemsTitle}</div>
+                <div class="ContentInfo">优惠信息&nbsp;&nbsp;商品操作</div>
+            </div>
+        </div>
+    </div>
+    
+	<div id="ItemDetail">
+		<div class="containLeft">
+			
+			<div class="showproductbody">
+				<div class="showproductsimp">
+					<table width="100%" height="350" border="0">
+						<tr>
+							<td width="350" height="350" rowspan="12"><img src="../FileUpload/Images/ItemsThumb/{$itemThumbnail}" width="350px" height="350px" /></td>
+							<td width="50" rowspan="12">&nbsp;</td>
+							<td width="419" height="50px"><span><strong>{$itemDescri}</strong></span></td>
+						</tr>
+						<tr>
+							<td>&nbsp;</td>
+						</tr>
+						<tr>
+							<td><div style="font-size:16px">{$itemsPrices}</div></td>
+						</tr>
+						<tr>
+							<td>&nbsp;</td>
+						</tr>
+						<tr>
+							<td>品牌：{$itemBrandName}</td>
+						</tr>
+                        <tr>
+							<td>配送：配送配送配送</td>
+						</tr>
+						<tr>
+							<td>库存量：{$itemsStock}</td>
+						</tr>
+						<tr>
+							<td>选择数量：：</td>
+						</tr>
+						<tr>
+							<td>承诺：7天无理由退货</td>
+						</tr>
+						<tr>
+							<td>支付：支付宝   微信</td>
+						</tr>
+                        <tr height="20px;">
+							<td>&nbsp;</td>
+						</tr>
+						<tr>
+							<td>
+                                <div class="ItemButton">
+		    <ul>
+			    <li><a  href="#" target="_top">加入购物车</a></li>
+			    <li><a  href="#" target="_top">立即购买</a></li>
+			
+		    </ul>
+	    </div> 
+							</td>
+						</tr>
+						
+					</table>
+
+				</div>
+
+				<div class="showproductdetail">
+					<div class="tiek">>> 商品详细信息</div>
+					<div class="tsbody">
+						{$itemContent}
+
+					</div>
+				</div>
+
+
+			</div>
+
+		</div>
+
+		<div class="containRight">
+			
+			<div class="containRightItems"><a href="{mydc:url}" target="_blank">商户信息</a></div>
+
+			
+
+		</div>
+
+
+	</div>
+{$Footer$}

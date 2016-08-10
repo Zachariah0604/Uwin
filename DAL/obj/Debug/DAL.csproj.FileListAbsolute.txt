@@ -1,0 +1,19 @@
+F:\Vs Project\Uwin\DAL\bin\Debug\DAL.dll
+F:\Vs Project\Uwin\DAL\bin\Debug\DAL.pdb
+F:\Vs Project\Uwin\DAL\obj\Debug\DAL.dll
+F:\Vs Project\Uwin\DAL\obj\Debug\DAL.pdb
+F:\Vs Project\Uwin\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+E:\Git\vsProject\Uwin\DAL\bin\Debug\DAL.dll
+E:\Git\vsProject\Uwin\DAL\bin\Debug\DAL.pdb
+E:\Git\vsProject\Uwin\DAL\obj\Debug\DAL.dll
+E:\Git\vsProject\Uwin\DAL\obj\Debug\DAL.pdb
+D:\Git\VsProject\Uwin\DAL\bin\Debug\DAL.dll
+D:\Git\VsProject\Uwin\DAL\bin\Debug\DAL.pdb
+D:\Git\VsProject\Uwin\DAL\obj\Debug\DAL.dll
+D:\Git\VsProject\Uwin\DAL\obj\Debug\DAL.pdb
+D:\Git\VsProject\Uwin\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+E:\Vs Projects\Uwin\DAL\bin\Debug\DAL.dll
+E:\Vs Projects\Uwin\DAL\bin\Debug\DAL.pdb
+E:\Vs Projects\Uwin\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+E:\Vs Projects\Uwin\DAL\obj\Debug\DAL.dll
+E:\Vs Projects\Uwin\DAL\obj\Debug\DAL.pdb

@@ -1,0 +1,5 @@
+D:\Git\VsProject\Uwin\DAL\bin\Release\DAL.dll
+D:\Git\VsProject\Uwin\DAL\bin\Release\DAL.pdb
+D:\Git\VsProject\Uwin\DAL\obj\Release\DAL.csprojResolveAssemblyReference.cache
+D:\Git\VsProject\Uwin\DAL\obj\Release\DAL.dll
+D:\Git\VsProject\Uwin\DAL\obj\Release\DAL.pdb

@@ -1,0 +1,9 @@
+D:\Git\VsProject\Uwin\BLL\bin\Release\BLL.dll
+D:\Git\VsProject\Uwin\BLL\bin\Release\BLL.pdb
+D:\Git\VsProject\Uwin\BLL\bin\Release\DAL.dll
+D:\Git\VsProject\Uwin\BLL\bin\Release\Model.dll
+D:\Git\VsProject\Uwin\BLL\bin\Release\DAL.pdb
+D:\Git\VsProject\Uwin\BLL\bin\Release\Model.pdb
+D:\Git\VsProject\Uwin\BLL\obj\Release\BLL.csprojResolveAssemblyReference.cache
+D:\Git\VsProject\Uwin\BLL\obj\Release\BLL.dll
+D:\Git\VsProject\Uwin\BLL\obj\Release\BLL.pdb

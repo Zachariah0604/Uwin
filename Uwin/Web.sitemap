@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="admin/" title="后台首页"  description="">
+      <siteMapNode url="" title="广告管理">
+        <siteMapNode url="admin/Ad/BannerManage.aspx" title="Banner大图"  description="" />
+        <siteMapNode url="admin/Ad/WapAD.aspx" title="wap站第一广告位"  description="" />
+        <siteMapNode url="admin/Ad/WapVideo.aspx" title="wap视频"  description="" />
+      </siteMapNode>
+      <siteMapNode url="" title="文章管理">
+        <siteMapNode url="admin/ArticleManage/ActicleList.aspx" title="文章列表"  description="" />
+        <siteMapNode url="admin/ArticleManage/AddArticle.aspx" title="发布文章"  description="" />
+        <siteMapNode url="admin/ArticleManage/AddType.aspx" title="添加分类"  description="" />
+        <siteMapNode url="admin/ArticleManage/EditArticle.aspx" title="编辑文章"  description="" />
+        <siteMapNode url="admin/ArticleManage/EditType.aspx" title="编辑分类"  description="" />
+        <siteMapNode url="admin/ArticleManage/TypeManage.aspx" title="文章分类管理"  description="" />
+      </siteMapNode>
+      <siteMapNode url="" title="商品管理">
+        <siteMapNode url="admin/Items/AddItem.aspx" title="添加商品"  description="" />
+        <siteMapNode url="admin/Items/AddParType.aspx" title="添加父类"  description="" />
+        <siteMapNode url="admin/Items/AddSubType.aspx" title="添加子类"  description="" />
+        <siteMapNode url="admin/Items/EditItems.aspx" title="编辑商品"  description="" />
+        <siteMapNode url="admin/Items/ItemsManage.aspx" title="商品列表"  description="" />
+        <siteMapNode url="admin/Items/ItemsSecManage.aspx" title="秒杀商品列表"  description="" />
+        <siteMapNode url="admin/Items/ItemsTrialManage.aspx" title="试用商品列表"  description="" />
+        <siteMapNode url="admin/Items/TypeManage.aspx" title="商品分类"  description="" />
+      </siteMapNode>
+      <siteMapNode url="" title="商户管理">
+        <siteMapNode url="admin/Merchant/AddMerchant.aspx" title="添加商户"  description="" />
+        <siteMapNode url="admin/Merchant/MerchantManage.aspx" title="商户列表"  description="" />
+      </siteMapNode>
+      <siteMapNode url="" title="订单管理">
+        <siteMapNode url="admin/Orders/OrderManage.aspx" title="订单列表"  description="" />
+        <siteMapNode url="admin/Orders/OrderTriManage.aspx" title="试用订单列表"  description="" />
+        <siteMapNode url="admin/Orders/ToBeRefunded.aspx" title="待退款"  description="" />
+      </siteMapNode>
+      <siteMapNode url="" title="资源管理">
+          <siteMapNode url="" title="城市管理">
+            <siteMapNode url="admin/Resorces/CityMange/Add.aspx" title="添加城市"  description="" />
+            <siteMapNode url="admin/Resorces/CityMange/Area.aspx" title="区域"  description="" />
+            <siteMapNode url="admin/Resorces/CityMange/City.aspx" title="城市"  description="" />
+            <siteMapNode url="admin/Resorces/CityMange/Province.aspx" title="省份"  description="" />
+          </siteMapNode>
+          <siteMapNode url="admin/Resorces/ActivityManage.aspx" title="活动管理"  description="" />
+          <siteMapNode url="admin/Resorces/AddBrand.aspx" title="添加品牌"  description="" />
+          <siteMapNode url="admin/Resorces/BrandManage.aspx" title="品牌列表"  description="" />
+          <siteMapNode url="admin/Resorces/ExpressManage.aspx" title="快递管理"  description="" />
+          <siteMapNode url="admin/Resorces/QRCodeManage.aspx" title="二维码管理"  description="" />
+      </siteMapNode>
+      <siteMapNode url="" title="分站管理">
+        <siteMapNode url="admin/StationManage/AddManager.aspx" title="添加管理员"  description="" />
+        <siteMapNode url="admin/StationManage/AddStation.aspx" title="添加分站"  description="" />
+        <siteMapNode url="admin/StationManage/EditManager.aspx" title="编辑管理员"  description="" />
+        <siteMapNode url="admin/StationManage/EditStation.aspx" title="编辑分站"  description="" />
+        <siteMapNode url="admin/StationManage/RoleManage.aspx" title="角色管理"  description="" />
+        <siteMapNode url="admin/StationManage/StationAndMananer.aspx" title="管理员列表"  description="" />
+        <siteMapNode url="admin/StationManage/StationManage.aspx" title="分站列表"  description="" />
+      </siteMapNode>
+      <siteMapNode url="" title="统计报表">
+        <siteMapNode url="admin/Statistics/BrandInfo.aspx" title="品牌统计"  description="" />
+        <siteMapNode url="admin/Statistics/ItemsInfo.aspx" title="商品统计"  description="" />
+        <siteMapNode url="admin/Statistics/OrderSta.aspx" title="订单统计"  description="" />
+        <siteMapNode url="admin/Statistics/OrderTriSta.aspx" title="试用订单统计"  description="" />
+        <siteMapNode url="admin/Statistics/StationInfo.aspx" title="分站信息"  description="" />
+        <siteMapNode url="admin/Statistics/SystemInfo.aspx" title="系统信息"  description="" />
+        <siteMapNode url="admin/Statistics/UserInfo.aspx" title="用户信息"  description="" />
+      </siteMapNode>
+      <siteMapNode url="" title="用户管理">
+        <siteMapNode url="admin/Users/MemberManage.aspx" title="用户列表"  description="" />
+      </siteMapNode>
+       
+    </siteMapNode>
+</siteMap>
